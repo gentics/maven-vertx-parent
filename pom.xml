@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>oss-parent-vertx</artifactId>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>com.gentics</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>1.0.0</version>
+	</parent>
+
+	<properties>
+
+		<vertx.version>2.1</vertx.version>
+		<vertx.testtools.version>2.0.3-final</vertx.testtools.version>
+	</properties>
+
+	<dependencies>
+
+		<!--Vertx provided dependencies -->
+		<dependency>
+			<groupId>io.vertx</groupId>
+			<artifactId>vertx-core</artifactId>
+			<version>${vertx.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.vertx</groupId>
+			<artifactId>vertx-platform</artifactId>
+			<version>${vertx.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!--Test dependencies -->
+		<dependency>
+			<groupId>io.vertx</groupId>
+			<artifactId>testtools</artifactId>
+			<version>${vertx.testtools.version}</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
