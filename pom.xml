@@ -4,7 +4,7 @@
 
 	<groupId>com.gentics.vertx</groupId>
 	<artifactId>maven-vertx-parent</artifactId>
-	<version>3.0.5</version>
+	<version>3.0.6</version>
 	<packaging>pom</packaging>
 
 	<parent>
@@ -59,6 +59,11 @@
 			<dependency>
 				<groupId>io.vertx</groupId>
 				<artifactId>vertx-maven-service-factory</artifactId>
+				<version>${vertx.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>io.vertx</groupId>
+				<artifactId>vertx-auth-jwt</artifactId>
 				<version>${vertx.version}</version>
 			</dependency>
 			<dependency>
