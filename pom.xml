@@ -19,6 +19,12 @@
 		<slf4j.version>1.7.7</slf4j.version>
 	</properties>
 
+	<scm>
+		<connection>scm:git:git@github.com:gentics/maven-vertx-parent.git</connection>
+		<developerConnection>scm:git:git@github.com:gentics/maven-vertx-parent.git</developerConnection>
+		<url>https://github.com/gentics/maven-vertx-parent</url>
+	</scm>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -87,8 +93,6 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
-
 
 	<build>
 		<pluginManagement>
