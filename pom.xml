@@ -3,7 +3,7 @@
 
 	<groupId>com.gentics.vertx</groupId>
 	<artifactId>maven-vertx-parent</artifactId>
-	<version>3.2.5-SNAPSHOT</version>
+	<version>3.2.6-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<parent>
@@ -123,18 +123,6 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<configuration>
-					<includes>
-						<include>**/*Test*.java</include>
-					</includes>
-					<excludes>
-						<exclude>**/integration/**</exclude>
-					</excludes>
 				</configuration>
 			</plugin>
 		</plugins>
