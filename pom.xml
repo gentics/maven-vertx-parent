@@ -3,7 +3,7 @@
 
 	<groupId>com.gentics.vertx</groupId>
 	<artifactId>maven-vertx-parent</artifactId>
-	<version>3.5.2</version>
+	<version>3.5.3</version>
 	<packaging>pom</packaging>
 
 	<parent>
@@ -101,17 +101,6 @@
 			<url>https://maven.gentics.com/maven2</url>
 			<releases>
 				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>sonatype-nexus-snapshots</id>
-			<name>Sonatype Nexus Snapshots</name>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-			<releases>
-				<enabled>false</enabled>
 			</releases>
 			<snapshots>
 				<enabled>true</enabled>
