@@ -4,7 +4,7 @@
 
 	<groupId>com.gentics.vertx</groupId>
 	<artifactId>maven-vertx-parent</artifactId>
-	<version>3.6.0.CR1</version>
+	<version>3.6.0.CR2</version>
 	<packaging>pom</packaging>
 
 	<parent>
@@ -14,7 +14,7 @@
 	</parent>
 
 	<properties>
-		<vertx.version>3.6.0.CR1</vertx.version>
+		<vertx.version>3.6.0.CR2</vertx.version>
 		<log4j.version>2.2</log4j.version>
 		<slf4j.version>1.7.7</slf4j.version>
 	</properties>
