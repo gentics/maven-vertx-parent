@@ -12,9 +12,3 @@ vertx-x.y.z branch.
 
 The first three parts of the version are the exact Vert.x version used by this
 parent.
-
-## CHANGELOG
-
-### 3.8.5.1 (2021-09-23)
-
-* Bump Maven Parent version to 5.1.0
