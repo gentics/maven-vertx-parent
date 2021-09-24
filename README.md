@@ -15,6 +15,10 @@ parent.
 
 ## CHANGELOG
 
+### 3.9.0.0 (2021-09-23)
+
+* Bump Vert.x version to 3.9.0
+
 ### 3.8.5.1 (2021-09-23)
 
 * Bump Maven Parent version to 5.1.0
