@@ -15,6 +15,10 @@ parent.
 
 ## CHANGELOG
 
+### 3.9.12.0 (2022-03-10)
+
+* Bump Vert.x version to 3.9.12
+
 ### 3.9.0.0 (2021-09-23)
 
 * Bump Vert.x version to 3.9.0
