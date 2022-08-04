@@ -15,14 +15,6 @@ parent.
 
 ## CHANGELOG
 
-### 3.9.12.0 (2022-03-10)
+### 4.3.2.0 (2022-08-04)
 
-* Bump Vert.x version to 3.9.12
-
-### 3.9.0.0 (2021-09-23)
-
-* Bump Vert.x version to 3.9.0
-
-### 3.8.5.1 (2021-09-23)
-
-* Bump Maven Parent version to 5.1.0
+* Bump Vert.x version to 4.3.2
